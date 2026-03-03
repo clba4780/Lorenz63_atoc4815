@@ -67,7 +67,7 @@ def plot_ensemble(ax, ensemble_trajectories, reference_trajectory=None,
         plot_attractor(ax,ensemble_trajectories[i],color = ensemble_color, alpha=0.8)
     ax.set_ylabel('z')
     ax.set_xlabel('x')
-    ax.set_title('Lorenz63 Trajectories')
+    ax.set_title(title)
     # equal aspect ratio defines a square shape width and height
     ax.set_aspect('equal')
 
